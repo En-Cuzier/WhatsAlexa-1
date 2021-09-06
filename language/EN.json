@@ -11,9 +11,29 @@
             "NOT_FOUND": "*I couldnt find a command like this*",
             "WARN": "Warn"
         },
+        "plugin": {
+            "INSTALL_DESC": "Install external plugins.",
+            "NEED_URL": "Please enter a URL! Example:",
+            "UNOFF": "⚠️ *Attention!* \n*The plugin you have installed is not official!*",
+            "INVALID_URL": "```Please enter a valid url!```",
+            "INVALID_PLUGIN": "*❌ Your plugin is invalid!*\n*Error:*",
+            "INSTALLED": "*✅ Plugin has been successfully installed!*",
+            "PLUGIN_DESC": "Shows the plugins you have installed.",
+            "INSTALLED_FROM_REMOTE": "*Plugins you install externally:*\n",
+            "NO_PLUGIN": "*You have not installed any external plugins!*",
+            "REMOVE_DESC": "Removes the plugin.",
+            "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
+            "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
+            "DELETED": "*✅ Module successfully deleted!*",
+            "WARN": "Get plugins only from t.me/remasterplugin channel."
+        },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
             "IM_NOT_ADMIN": "*I am not admin in this group!*",
+            "USER_NOT_ADMIN": "*You are not an admin in this group!*",
+            "SET_NAME_DESC": "Changes the group's name.",
+            "S_NEED_WORD": "*You must enter a name!*",
+            "SUC_SNAME": "✅ Successfully changed the Group's name to",
             "BANNED": "kicked out of the group!",
             "GIVE_ME_USER": "*Give me a user!*",
             "ADD_DESC": "Adds someone to the group.",
@@ -38,15 +58,21 @@
             "REASON": "Reason",
             "LAST_SEEN": "Last Seen",
             "IM_NOT_AFK": "```I am not AFK anymore!```",
-            "AFK_TEXT": "```Bip bop! This is a bot. My owner is not here at the moment.```",
-            "AFK_TEXT_NOMD": "Bip bop! This is a bot.",
+            "AFK_TEXT": "```Bip bop! This is a bot. My owner is busy right now!.```",
+            "AFK_TEXT_NOMD": "*Bip bop! This is a bot.",
             "HOUR": "hour",
             "MINUTE": "minute",
             "SECOND": "second"
         },
         "evaluators": {
             "TERM_DESC": "Allows to run the command on the server's shell.",
-            "GIVE_ME_CODE": "*Give me a code!*"
+            "GIVE_ME_CODE": "*Give me a code!*",
+            "PMS_DESC": "Sends a private message to the replied person in group.",
+            "NEED_REPLY": "*You must reply to any user's message!*",
+            "NEED_WORDS": "*Must enter some words!*",
+            "SUC_PMS": "*Message Sent Successfully ✅*",
+            "MSG": "Message",
+            "FRM": "From:"
         },
         "heroku": {
             "RESTART_DESC": "Restart WhatsAlexa",
@@ -101,14 +127,15 @@
             "ALREADY_EMPTY": "```Your user list is already empty!```",
             "NOT_ADDED": "```You haven't added this user already!```",
             "SIMI_DESC": "Chat with Simi Simi AI Bot.",
+            "VSIMI_DESC": "Chat with Simi Simi AI Voice Bot.",
             "BOT_DIVIDER": ":",
             "NOT_FOUND_RESPONSE": "```Bot Yet Not Responded! 😖```",
             "INVALID_REQ": "*Invalid Request.*",
-            "DISABLED": "```Lydia has been disabled for this user!```"
+            "INFO_BOT": "Shows the details/informations of the bot."
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! I am going 🤠```",
+            "KICKME": "```👋 Bye bye Guys! I am going 🤠```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```Setting profile photo...```",
@@ -145,12 +172,12 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "```Downloading your song...```",
-            "UPLOADING_SONG": "```Uploading your song...```",
+            "DOWNLOADING_SONG": "*⦁═══🎧═══⦁*\n```Downloading your music...```\n*⦁═══🎧═══⦁*",
+            "UPLOADING_SONG": "*⦁═══🎧═══⦁*\n```Uploading your music...```\n*⦁═══🎧═══⦁*",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading your video...```",
-            "UPLOADING_VIDEO": "```Uploading your video...```",
+            "DOWNLOADING_VIDEO": "*⦁═══📽═══⦁*\n```Downloading your video...```\n*⦁═══📽═══⦁*",
+            "UPLOADING_VIDEO": "*⦁═══📽═══⦁*\n```Uploading your video...```\n*⦁═══📽═══⦁*",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
@@ -172,17 +199,21 @@
         "tagall": {
             "TAGALL_DESC": "Tags everyone in the group.",
             "TAGADMİN": "Tags group admins.",
-            "ADMİN": "*I am not admin in this group!*"
+            "ADMİN": "*I am not admin in this group!*",
+            "SCAN": "Check if the given number is registered in WhatsApp.",
+            "NO": "*You must enter a Phone number!*\n*Example:* ```#scan 9199xxxx```",
+            "SUC": "*The numbered person is using WhatsApp! ✅*",
+            "UNSUC": "*The numbered person is not using WhatsApp! ❌*"
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*🎉 WhatsAlexa a new update available..!\nType *'#update now'* to update the Bot\n\n🆕 Changes After this update:\n\n```",
+            "NEW_UPDATE": "*🥳 WhatsAlexa a new update available..!\nType *'#update now'* to update the Bot\n\n🆕 Changes After this update:\n\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "🔁 WhatsAlexa Updating...!\n🕓 This may Take a few minutes.",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*✅ Successfully Updated!*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
+            "UPDATED": "*✅ Successfully Updated! 🎉*",
+            "UPDATED_LOCAL": "*✅ Successfully Updated! 🎉*",
             "AFTER_UPDATE": "*💬 WhatsAlexa Restarting Automatically!*"
         },
         "weather": {
@@ -311,11 +342,14 @@
             "SPDF_PROC": "```Converting Site into PDF```",
             "UA_DESC": "Converts sound recording to an audio File.",
             "UA_REPLY": "*Must Reply to a sound recording*",
-            "UA_PROC": "```Converting Sound recording To an Audio File...```"
+            "UA_PROC": "```Converting Sound recording To an Audio File...```",
+            "CLR_DESC": "Clear all the messages From this Chat.",
+            "CLR_PROC": "```Clearing all the Messages... 🗑️```",
+            "CLR_DONE": "*✅️ Successfully Cleared Messages From this Chat*."
         },
         "carbon": {
             "CARBON_DESC": "Uses carbon.sh for Text-to-Image",
-            "CARBON_NEEDWORD": "*Not enough arguments to translate Text-to-Image!*\nExample: ```.carbon test```\nExample: ```.carbon making#test```",
+            "CARBON_NEEDWORD": "*Not enough arguments to translate Text-to-Image!*\nExample: ```#carbon test```\nExample: ```#carbon making#test```",
             "CARBON_WARN": "Please only type in en and tr character!"
         },
         "ttp": {

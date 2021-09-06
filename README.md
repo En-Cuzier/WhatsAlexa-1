@@ -1,5 +1,16 @@
 ## 🤔 What is WhatsAlexa?! 🤔
-- **WhatsAlexa** is a Helper WhatsApp Bot Written with **[Baileys](https://github.com/adiwajshing/baileys)** Which is hosted on **[Heroku Cloud Server](https://heroku.com).** Also Alexa has a **Lot of Commands/Features,** Including **Voice Chat.**
+- **WhatsAlexa** is a Helper WhatsApp Bot Written with **[Baileys](https://github.com/adiwajshing/baileys)** Which is hosted on **[Heroku Cloud Server](https://heroku.com).** Also Alexa has a **Lot of Commands/Features,** Including **Artificial Intelligence [ AI ] Features/Commands.**
+
+
+<p align="center">
+    <a href="https://github.com/TOXIC-DEVIL">
+        <img
+            src="https://readme-typing-svg.herokuapp.com?size=33&width=1000&lines=Welcome+To+WhatsAlexa...+Thank+You+For+Visiting...."
+            alt="Typing SVG"
+        />
+    </a>
+</p>
+
 
 <div align="center">
   <img src="https://rotf.lol/Whats-Alexa-Gif-TOXIC-DEVIL" width="200" height="200">
@@ -8,29 +19,38 @@
 <p align="center">
     WhatsAlexa is a Helper WhatsApp Bot Written By @TOXIC-DEVIL with Baileys. Alexa has a lot of Features/Commans Including Voice Chat [ AI ].
     <br>
+     <img src="https://img.shields.io/github/repo-size/TOXIC-DEVIL/WhatsAlexa?color=green&label=Repo%20total%20size&style=plastic">
+
+<p align="center">
+<a href="https://github.com/TOXIC-DEVIL/WhatsAlexa/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TOXIC-DEVIL/WhatsAlexa?color=blue&style=flat-square"></a>
+<a href="https://github.com/TOXIC-DEVIL/WhatsAlexa/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TOXIC-DEVIL/WhatsAlexa?color=pink&style=flat-square"></a>
+
 
 ## ⚙️ Setup ⚙️
 ```
->+ pkg install git
-
->+ pkg install nodejs
-
->+ git clone https://github.com/TOXIC-DEVIL/WhatsAlexa
-
->+ cd WhatsAlexa
-
->+ npm i @adiwajshing/baileys
-
->+ npm i chalk
-
->+ node alexa.js
+# bash <(curl -L rotf.lol/WhatsAlexa-Toxic-Devil)
 ```
+```
+# pkg install git
+# pkg install nodejs
+# git clone https://github.com/TOXIC-DEVIL/WhatsAlexa
+# cd WhatsAlexa
+# npm i @adiwajshing/baileys
+# npm i chalk
+# node alexa.js
+```
+  
+## 💫 Deploy & Run WhatsAlexa 💫
 
-## 💫 Deploy WhatsAlexa on Heroku 💫
+**If You are Lazy to Download Termux or Concerned About Memory leaks, You can Use Below Button 'Run on Replit' to scan QR Code, Also Laptop/Computer is More Confortable To Scan the QR Code.**
+
+[![Run on Repl.it](https://repl.it/badge/github/TOXIC-DEVIL/WhatsAlexa)](https://replit.com/@TOXICDEVIL/WhatsAlexa)
+
+**You must Deploy on Heroku by clicking 'Deploy to Heroku' Button.**
 
 [![Deploy-WhatsAlexa](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TOXIC-DEVIL/WhatsAlexa)
 
-## ❔ F A Q ( Frequently Asked Questions ) ❔
+## ❔ F A Q ( Frequently Asked Questions. ) ❔
 
 ### 💬 Can you read my messages?
 
@@ -64,17 +84,33 @@ If you are concerned about that, Then you can just use bot on a [Fake Number](ht
 
 **As per the license, You Can** But We Will Not Support. 🙃
 
-### ❔ How many features/commands are there in this bot? What are they?
+### ❔ How many features/commands are there in this bot?
 
-There are **50+** Features/Commands Are there in **this bot!** You can see **all commands, [click here]()**
+There are **50+** Features/Commands Are there in **this bot!**
 
-## ⚠ Warnings & Disclaimers ⚠
+## ⚠ Warning ⚠
 
-- By using kick, add, promote, demote Commands, **Your WhatsApp account may be banned.** This is an open source project, **you are responsible for everything you do.** Absolutely, WhatsAlexa executives **do not accept responsibility.** By establishing the Alexa, **you are deemed to have accepted these responsibilities.**
+```
+By using kick, add, promote, demote Commands, Your WhatsApp account may be banned.
+WhatsAlexa or we are not responsible for your account, 
+This bot is intended for the purpose of having fun with some fun commands 
+and group management with some helpfull commands.
 
-- **WhatsApp** name, its variations and the logo are registered trademarks of Facebook. **We have nothing to do with the registered trademark.**
+If  you ended up spamming groups, getting reported left and right, 
+and you ended up in being fight with WhatsApp
+and at the end WhatsApp Team deleted your account. DON'T BLAME US.
 
-- **Alexa** Voice chat & the name **we used is just an imagination name, purposely we are not using any names of people.** Also we are not using the **[Amazon Alexa Voice Chat.](https://developer.amazon.com/en-US/alexa)** We are just using the **[google text to speech](https://cloud.google.com/text-to-speech/?utm_source=google&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-bkws-all-pkws-trial-e-dr-1009882&utm_content=text-ad-none-none-DEV_c-CRE_497186278768-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20AI%20%26%20ML%20~%20Text-to-Speech_Global%20gap%20analysis-KWID_43700060670685236-kwd-19019442714&userloc_9050518-network_g&utm_term=KW_google%20text%20to%20speech&gclid=Cj0KCQjwvO2IBhCzARIsALw3ASqF1TFpwCt-n-JLw4sBDmCtkWyH8OMmgtbkG2PAJwyfJH6ocFmzzy4aAv3NEALw_wcB&gclsrc=aw.ds)** for some of the conversations.
+No personal support will be provided / We won't spoon feed you. 
+If you need help ask in our support group 
+and we will try to help you.
+```
+  
+## 👨‍💻 Developers & Contributors 👨‍💻
+
+ [![TOXIC-DEVIL](https://github.com/TOXIC-DEVIL.png?size=100)](https://github.com/TOXIC-DEVIL) | [![terror-boy](https://github.com/terror-boy.png?size=100)](https://github.com/terror-boy) | [![En-Cuzier](https://github.com/En-Cuzier.png?size=100)](https://github.com/En-Cuzier) |
+----|----|----|
+[TOXIC-DEVIL](https://github.com/TOXIC-DEVIL)  | [terror-boy](https://github.com/terror-boy) | [En-Cuzier](https://github.com/terror-boy) |
+Author: Developer, Base, Bug Fixes, Commits, Modules | Contributor: Bug Fixes ( Minor )| Contributor: Modules |
 
 ## ✨ Special Features ✨
 
