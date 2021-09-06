@@ -2,6 +2,7 @@ let {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
 let WhatsAlexa = require('../events');
 let Config = require('../config');
 let FilterDb = require('./sql/filters');
+let td = Config.WORKTYPE == 'public' ? false : true
 let Language = require('../language');
 let FLang = Language.getString('filters');
 let Lang = Language.getString('admin');
@@ -283,3 +284,27 @@ WhatsAlexa.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         }
     );
 }));
+
+/* WhatsAlexa.addCommand({on: 'text', fromMe: td}, (async (message, match) => {
+    
+var content = ''
+  if (Config.LANG == 'EN') content = `Hey Bro!! Its me WhatsAlexa here. How can I Help You?`
+  if (Config.LANG == 'ML') content = `ഹായ് ബ്രോ!! ഞാൻ WhatsAlexa ആണ്. ഞാന്‍ എങ്ങനെയാണ് നിങ്ങളെ സഹായിക്കേണ്ടത്?`
+  if (Config.LANG == 'ID') content = `Hai kawan!! Ini saya WhatsAlexa di sini. Apa yang bisa saya bantu?`
+    
+        let 
+        LANG = config.LANG.toLowerCase(),
+        ttsMessage = content,
+        SPEED = 1.0
+        
+    let buffer = await googleTTS.synthesize({
+         text: ttsMessage,
+         voice: LANG
+    });
+    
+    if (match[1] == 'WhatsAlexa' || match[1] == 'Alexa' || match[1] == 'alexa' || match[1] == 'ALEXA' || match[1] == 'whatsalexa' || match[1] == 'ALEXA' || match[1] == 'bot' ) {
+        
+        await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
+     }
+}));           
+ */
