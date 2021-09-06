@@ -1,4 +1,4 @@
-/* let WhatsAlexa = require('../events');
+let WhatsAlexa = require('../events');
 let {MessageType} = require('@adiwajshing/baileys');
 let fs = require('fs');
 let googleTTS = require('google-translate-tts');
@@ -46,5 +46,3 @@ else if (Config.SIMI_MODE == 'voice') {
 	    }
     });
 }
-	*/
-
