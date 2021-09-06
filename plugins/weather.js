@@ -1,4 +1,3 @@
-  
 let WhatsAlexa = require('../events');
 let {MessageType} = require('@adiwajshing/baileys');
 let got = require('got');
