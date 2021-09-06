@@ -88,13 +88,22 @@ If you are concerned about that, Then you can just use bot on a [Fake Number](ht
 
 There are **50+** Features/Commands Are there in **this bot!**
 
-## ⚠ Warnings & Disclaimers ⚠
+## ⚠ Warning ⚠
 
-- By using kick, add, promote, demote Commands, **Your WhatsApp account may be banned.** This is an open source project, **you are responsible for everything you do.** Absolutely, WhatsAlexa executives **do not accept responsibility.** By establishing the Alexa, **you are deemed to have accepted these responsibilities.**
+```
+By using kick, add, promote, demote Commands, Your WhatsApp account may be banned.
+WhatsAlexa or we are not responsible for your account, 
+This bot is intended for the purpose of having fun with some fun commands 
+and group management with some helpfull commands.
 
-- **WhatsApp** name, its variations and the logo are registered trademarks of Facebook. **We have nothing to do with the registered trademark.**
+If  you ended up spamming groups, getting reported left and right, 
+and you ended up in being fight with WhatsApp
+and at the end WhatsApp Team deleted your account. DON'T BLAME US.
 
-- **Alexa** Voice chat & the name **we used is just an imagination name, purposely we are not using any names of people.** Also we are not using the **[Amazon Alexa Voice Chat.](https://developer.amazon.com/en-US/alexa)** We are just using the **[google text to speech](https://cloud.google.com/text-to-speech/?utm_source=google&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-bkws-all-pkws-trial-e-dr-1009882&utm_content=text-ad-none-none-DEV_c-CRE_497186278768-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20AI%20%26%20ML%20~%20Text-to-Speech_Global%20gap%20analysis-KWID_43700060670685236-kwd-19019442714&userloc_9050518-network_g&utm_term=KW_google%20text%20to%20speech&gclid=Cj0KCQjwvO2IBhCzARIsALw3ASqF1TFpwCt-n-JLw4sBDmCtkWyH8OMmgtbkG2PAJwyfJH6ocFmzzy4aAv3NEALw_wcB&gclsrc=aw.ds)** for some of the conversations.
+No personal support will be provided / We won't spoon feed you. 
+If you need help ask in our support group 
+and we will try to help you.
+```
   
 ## 👨‍💻 Developers & Contributors 👨‍💻
 
