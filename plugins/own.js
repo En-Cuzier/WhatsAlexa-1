@@ -294,7 +294,7 @@ var content = ''
   if (Config.LANG == 'ID') content = `Hai kawan!! Ini saya WhatsAlexa di sini. Apa yang bisa saya bantu?`
     
         let 
-        LANG = config.LANG.toLowerCase(),
+        LANG = Config.LANG.toLowerCase(),
         ttsMessage = content,
         SPEED = 1.0
         
