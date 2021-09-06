@@ -69,7 +69,7 @@ async function Alexa () {
     
     const conn = new WAConnection();
     const Session = new StringSession();
-    conn.version = [2, 2126, 14]
+    conn.version = [2, 2119, 6]
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;
