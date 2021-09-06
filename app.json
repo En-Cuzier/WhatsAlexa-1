@@ -51,6 +51,11 @@
             "required": false,
             "value": "94768826133"
         },
+        "SIMI_MODE": {
+            "description": "Enter the simi simi ai bot's mode! Type 'voice' to get response of simi simi ai bot on voice. Else Type 'text' to get response of simi simi ai bot on text message",
+            "required": true,
+            "value": "voice"
+        },
         "SEND_READ": {
             "description": "The bot reads the incoming messages ( only commands sent by others so privacy is not breaking there ).",
             "required": true,
