@@ -207,4 +207,3 @@ let td = config.WORKTYPE == 'public' ? false : true
             message.reply(Lang.IMG.format((result.length < 5 ? result.length : 5), match[1]));
         });
     }));
-}
