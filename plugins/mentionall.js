@@ -1,6 +1,7 @@
 let WhatsAlexa = require('../events');
 let {MessageType} = require('@adiwajshing/baileys');
 let Language = require('../language');
+let Config = require('../config');
 let TLang = Language.getString('tagall');
 let Lang = Language.getString('admin');
 let td = Config.WORKTYPE == 'public' ? false : true
