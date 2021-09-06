@@ -127,6 +127,7 @@
             "ALREADY_EMPTY": "```Your user list is already empty!```",
             "NOT_ADDED": "```You haven't added this user already!```",
             "SIMI_DESC": "Chat with Simi Simi AI Bot.",
+            "VSIMI_DESC": "Chat with Simi Simi AI Voice Bot.",
             "BOT_DIVIDER": ":",
             "NOT_FOUND_RESPONSE": "```Bot Yet Not Responded! 😖```",
             "INVALID_REQ": "*Invalid Request.*",
@@ -218,12 +219,12 @@
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
             "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather Bakü```",
-            "LOCATION": "🗺Location",
-            "TEMP": "🌡Temperature",
-            "DESC": "📝Description",
-            "HUMI": "🌞Humidity",
-            "WIND": "🌬Wind Speed",
-            "CLOUD": "⛅Cloud",
+            "LOCATION": "Location",
+            "TEMP": "Temperature",
+            "DESC": "Description",
+            "HUMI": "Humidity",
+            "WIND": "Wind Speed",
+            "CLOUD": "Cloud",
             "NOT_FOUND": "```I couldn't find a city with this name. 😖```"
         },
         "web": {
