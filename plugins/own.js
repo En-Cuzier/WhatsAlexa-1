@@ -2,6 +2,7 @@ let {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
 let WhatsAlexa = require('../events');
 let Config = require('../config');
 let FilterDb = require('./sql/filters');
+let googleTTS = require('google-translate-tts');
 let td = Config.WORKTYPE == 'public' ? false : true
 let Language = require('../language');
 let FLang = Language.getString('filters');
@@ -285,7 +286,7 @@ WhatsAlexa.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     );
 }));
 
-/* WhatsAlexa.addCommand({on: 'text', fromMe: td}, (async (message, match) => {
+WhatsAlexa.addCommand({on: 'text', fromMe: td}, (async (message, match) => {
     
 var content = ''
   if (Config.LANG == 'EN') content = `Hey Bro!! Its me WhatsAlexa here. How can I Help You?`
@@ -307,4 +308,3 @@ var content = ''
         await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
      }
 }));           
- */
