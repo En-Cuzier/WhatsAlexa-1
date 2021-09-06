@@ -134,6 +134,7 @@
             "ALREADY_EMPTY": "```Daftar pengguna Anda sudah kosong!```",
             "NOT_ADDED": "```Anda belum menambahkan pengguna ini!```",
             "SIMI_DESC": "Ngobrol dengan Simi Simi AI Bot.",
+            "VSIMI_DESC": "Ngobrol dengan Simi Simi AI Suara Bot.",
             "BOT_DIVIDER": ":",
             "NOT_FOUND_RESPONSE": "```Bot Namun Tidak Ditanggapi!! 😖```",
             "INVALID_REQ": "*Permintaan Tidak Valid.*",
