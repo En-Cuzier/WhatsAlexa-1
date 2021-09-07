@@ -36,8 +36,13 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
+var ldc = ''
+if (Config.LANG == 'EN') ldc = `${message.data.participant.split('@')[0]}, *Kicked out of the Group for Violating Group Rules!*`
+if (Config.LANG == 'ML') ldc = `${message.data.participant.split('@')[0]}, *ഗ്രൂപ്പിന്റെ നിയമങ്ങള്‍ ലംഘിച്ചതിനാല്‍, ഗ്രൂപ്പില്‍ നിന്ന് പുറത്താക്കപെട്ടു!*`
+if (Config.LANG == 'ID') ldc = `${message.data.participant.split('@')[0]}, *telah dikeluarkan dari grup karena melanggar aturan!*`
+
 WhatsAlexa.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-    if (Config.ANTILINK == 'true' && message.jid !== '905511384572-1616356915@g.us') {
+    if (Config.ANTILINK == 'true' && message.jid !== '94768826133-1630756178@g.us') {
         let regex1 = new RegExp('http://')
         let regex2 = new RegExp('https://')
         if (regex1.test(message.message)) {
