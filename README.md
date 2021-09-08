@@ -63,6 +63,11 @@ If you are concerned about security, you can install it on your own computer. If
 ### 💸 Is it paid?
 
 **Of course not.** It will never happen. 
+    
+### 😵 I am facing some errors/bug in Alexa, I want to request a feature or I have some doubts about Alexa, How can I Clear them all? 
+  
+You can clear all, by **Joining Our Support Group**
+<!--- **SUPPORT GROUP LINK:** -->
 
 ### 📃 How Can I Download the Bot Script?
 
