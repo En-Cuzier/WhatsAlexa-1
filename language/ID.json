@@ -354,10 +354,24 @@
             "SPDF_PROC": "```Mengonversi Situs menjadi PDF```",
             "UA_DESC": "Mengonversi rekaman suara menjadi File audio.",
             "UA_REPLY": "*Harus Membalas rekaman suara*",
-            "UA_PROC": "```Mengonversi Rekaman Suara Menjadi File Audio...```",
-            "CLR_DESC": "Hapus semua pesan Dari Obrolan ini.",
+            "UA_PROC": "```Mengonversi Rekaman Suara Menjadi File Audio...```"
+        },
+        "clear": {
+            "CLR_DESC": "Hapus semua pesan Dari Obrolan.",
             "CLR_PROC": "```Menghapus semua Pesan... 🗑️```",
-            "CLR_DONE": "*✅️ Berhasil Menghapus Pesan Dari Obrolan ini.*"
+            "CLR_DONE": "*✅️ Pesan Berhasil Dihapus*.",
+            "ARC_DESC": "Archive obrolan.",
+            "ARC_PROC": "```Archiving obrolan... ⬇```",
+            "ARC_DONE": "*✅️ Obrolan Berhasil Diarsipkan*.",
+            "UNARC_DESC": "Unarchive obrolan.",
+            "UNARC_PROC": "```Unarchiving obrolan... ⬆```",
+            "UNARC_DONE": "*✅️ Berhasil Membatalkan Pengarsipan Obrolan*.",
+            "PIN_DESC": "Pin obrolan.",
+            "PIN_PROC": "```Menyematkan Obrolan... 📌```",
+            "PIN_DONE": "*✅️ Obrolan Berhasil Disematkan*.",
+            "UNPIN_DESC": "Unpin obrolan.",
+            "UNPIN_PROC": "```Melepaskan Obrolan... 📌```",
+            "UNPIN_DONE": "*✅️ Obrolan Berhasil Lepas Pin*."
         },
         "carbon": {
             "CARBON_DESC": "Mengonversi teks menjadi foto dengan carbon.sh.",
