@@ -342,10 +342,24 @@
             "SPDF_PROC": "```Converting Site into PDF```",
             "UA_DESC": "Converts sound recording to an audio File.",
             "UA_REPLY": "*Must Reply to a sound recording*",
-            "UA_PROC": "```Converting Sound recording To an Audio File...```",
+            "UA_PROC": "```Converting Sound recording To an Audio File...```"
+        },
+        "clear": {
             "CLR_DESC": "Clear all the messages From this Chat.",
             "CLR_PROC": "```Clearing all the Messages... 🗑️```",
-            "CLR_DONE": "*✅️ Successfully Cleared Messages From this Chat*."
+            "CLR_DONE": "*✅️ Successfully Cleared Messages*.",
+            "ARC_DESC": "Archives the chat.",
+            "ARC_PROC": "```Archiving the Chat... ⬇```",
+            "ARC_DONE": "*✅️ Successfully Archived Chat*.",
+            "UNARC_DESC": "Unarchives the chat.",
+            "UNARC_PROC": "```Unarchiving the Chat... ⬆```",
+            "UNARC_DONE": "*✅️ Successfully Unarchived Chat*.",
+            "PIN_DESC": "Pins the chat.",
+            "PIN_PROC": "```Pinning the Chat... 📌```",
+            "PIN_DONE": "*✅️ Successfully Pinned Chat*.",
+            "UNPIN_DESC": "Unpins the chat.",
+            "UNPIN_PROC": "```Unpinning the Chat... 📌```",
+            "UNPIN_DONE": "*✅️ Successfully Unpinned Chat*."
         },
         "carbon": {
             "CARBON_DESC": "Uses carbon.sh for Text-to-Image",
